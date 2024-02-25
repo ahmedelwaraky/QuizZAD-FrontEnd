@@ -1,0 +1,156 @@
+/*-----------------------------------------------------*/
+/*------------------------ sideNav -----------------------------*/
+
+.ZADlogo{
+    width: 70px;
+    height: 70px;
+}
+
+.barVector{
+    width: 200px;
+    height: 175px;
+    background: none;
+}
+
+.TeacherbarVector{
+  width: 200px;
+  height: auto;
+  background:none ;
+}
+
+.studentbarVector{
+  width: 200px;
+  height: auto;
+  background:none ;
+}
+/* AdminSideNav.css */
+
+
+/* Common styles for both sidebar and navbar */
+.sidebar{
+  background: linear-gradient(to bottom, #B08EC9, #EADFF2);
+  color:white;
+  padding: 0;
+  max-height: 95.7vh;
+}
+
+.navbar{
+  max-width: 100%;
+  background-color:#320155;
+  border-radius: 0px;
+}
+
+.navbar-nav .nav-item:hover,
+.navbar-nav .nav-item.active {
+  color:#000;
+  border-radius: 25px;
+
+}
+
+/* Styles for the sidebar */
+.sidebar {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: left 0.3s;
+  z-index: 999;
+  border-radius: 30px;
+  height: 100vh;
+}
+
+.SBphase{
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+
+
+.btn-collapse{
+  /* background-color: #ffffffea !important; */
+  color: #000 !important;
+}
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  /* Hide the sidebar and display the toggle button */
+  .sidebar {
+    left: -250px;
+  }
+  .mainBar{
+    border: #000 1px solid;
+  }
+  /* Show the toggle button */
+  .sidebar-toggle {
+    display: block;
+  }
+  /* Adjust the content to make space for the collapsed sidebar */
+  .content {
+    margin-left: 0;
+  }
+}
+
+/* Styles for the navbar (on smaller screens) */
+.navbar {
+  display: none; /* Initially hide the navbar on larger screens */
+}
+
+/* Show the navbar on larger screens */
+@media (min-width: 769px) {
+  .navbar {
+    display: block;
+  }
+  
+}
+
+  
+  .reverse-color-on-hover li:hover {
+    background-color: #89288F; /* Background color */
+    color: #fff; /* Text color */
+  }
+ 
+
+  
+  /* Define the hover effect to reverse the color */
+ 
+  .reverse-color-on-hover i{
+    color: #89288F; /* Text color on hover */
+
+  }
+  .reverse-color-on-hover li:hover i,li:hover span {
+    color: #ffffff; /* Reversed color when hovered */
+
+  }
+
+  .reverse-color-on-hover .active,
+  .reverse-color-on-hover .active i,
+  .reverse-color-on-hover .active span {
+    background-color: #89288F; /* Background color for active state */
+    color: #fff; /* Text color for active state */
+
+  }
+
+
+
+  /*--------------- nav bar -----------*/
+/*------------------ quiz nav------------------*/
+.QuizNavBtn.active,
+.QuizNavBtn:hover {
+  background-color: white;
+  border-radius: 25px;
+  /* Add any other styles you want for the active link on hover */
+}
+
+
+/* Style for non-active links */
+.QuizNavBtn:not(.active) {
+    /* Reset the background and text color for non-active links */
+    background-color: transparent;
+    color:#ffffff;
+    border-radius: 25px;
+
+  }
+  
+  /* Style for the hover effect on non-active links */
+  .QuizNavBtn:not(.active):hover {
+    background-color: rgb(255, 255, 255);
+  }

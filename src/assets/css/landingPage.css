@@ -1,0 +1,26 @@
+.btnJoinUS:hover{
+    background-color:#d262df !important;
+    color: #ffffff;
+}
+
+/* ---------- Mobile Screen ---------- */
+@media (max-width:950px){
+    /* JoinUs Sectiom */
+    #joinUsImg{
+        display: none;    
+       }
+    #JoinUsMain{
+        text-align: center;
+        padding-top: 3.5rem;
+    }
+    /* Footer Section */
+    #footerContent{
+        font-size: .9em;
+    }
+}
+
+.join-us{
+    height: 390px;
+background-image: url("../images/show/hero3.jpg");
+position: relative;
+}

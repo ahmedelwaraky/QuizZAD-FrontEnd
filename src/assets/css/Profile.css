@@ -1,0 +1,77 @@
+.profile {
+  padding-top: 50px;
+}
+.profile .form {
+  background-color: #fcf8ff;
+}
+.profile-img {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  transition: all 0.5s ease-in-out;
+}
+.profile-img img {
+  width: 100px;
+  z-index: 10;
+}
+/* .profile-img:hover{
+    color: #fff;
+    outline: 10px solid #69156294;
+} */
+
+.profile-header h1 {
+  /* font-weight: 900; */
+  margin: 0 0 20px 0;
+}
+
+.upload i {
+  position: fixed;
+  z-index: 20;
+  font-size: 20px;
+  color: #64055c;
+}
+
+.profile-image {
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.profile-image:hover {
+  transform: scale(1.1);
+}
+
+/*------------------------------ Media Query----------------------------------- */
+@media (min-width: 1500px) {
+  .register {
+    padding-top: 4rem;
+  }
+  .register .form {
+    width: 50%;
+    height: 100vh;
+  }
+}
+@media (min-width: 900.99999px) and (max-width: 1500px) {
+  .Form {
+    width: 100%;
+    margin: auto;
+  }
+}
+@media (min-width: 700.99999px) and (max-width: 900px) {
+  .Form {
+    width: 100%;
+    margin: auto;
+  }
+}
+@media (min-width: 567.99999px) and (max-width: 700px) {
+  .Form {
+    width: 100%;
+  }
+}
+@media (max-width: 567px) {
+  .Form {
+    width: 100%;
+  }
+}
+
+/* Veiw Profile  */

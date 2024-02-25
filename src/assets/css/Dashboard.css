@@ -1,0 +1,63 @@
+/* ----- Top Nav ----- */
+.adminVector{
+    width: 40px;
+  }
+  .hstack{
+    color:black;
+  }
+  .title{
+    font-size: 20px;
+  }
+/* -------- Welcome Back --------- */
+#welcome{
+    position: relative;
+}
+.weclome{
+    background-image: linear-gradient(to right, #52057B,#780e80);
+    width: 100%;
+    height: 150px;
+}
+#welcome .vector img{
+    width: 20.75rem;
+}
+
+@media (min-width:900.99999px) and (max-width:1500px){}
+@media (min-width:700.99999px) and (max-width:900px){
+    #welcome .vector img{
+        display: none;
+    }
+}
+@media (min-width:567.99999px) and (max-width:700px){
+    #welcome .vector img{
+        display: none;
+     }
+}
+@media (max-width:567px){
+    #welcome .vector img{
+       display: none;
+    }
+}
+
+
+/* ------ Mini Dash ------ */
+.dash{
+    border-bottom: 5px solid #8A288E;
+    background-color: #fcf8ff;
+    padding: .2rem 0;
+}
+.dash .icon i{
+    margin-top: 1rem;
+    font-size: 3rem ;
+    color: #8A288E;
+}
+.dash .icon h6{
+    color: #8A288E;
+    font-size: 15px;
+}
+
+
+/* ------ background image ------ */
+.ImageBack{
+    width: 350px;
+    height: auto;
+}

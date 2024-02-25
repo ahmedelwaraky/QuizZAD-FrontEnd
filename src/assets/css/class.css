@@ -1,0 +1,41 @@
+/* 
+class dashboard
+
+*/
+
+/* CSS for styling the scrollbar and removing arrows */
+.Scroller {
+  height: 87vh; /* Set your desired height */
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+
+
+/* Webkit-based (Google Chrome, Safari) */
+.Scroller::-webkit-scrollbar {
+  width: 10px; /* Set the width of the scrollbar */
+}
+
+.Scroller::-webkit-scrollbar-thumb {
+  background-color: #4f0381; /* Set the color of the thumb */
+  border-radius: 5px; /* Set border radius to make it round */
+}
+
+.Scroller::-webkit-scrollbar-track {
+  background-color: transparent; /* Set the color of the track */
+}
+
+
+/* ----------------class table--------------- */
+
+/* .newForm{
+  background-color: #FCF8FF;
+} */
+
+label{
+  color: rgb(0, 0, 0);
+}
+
+/* ----------------class table--------------- */
+

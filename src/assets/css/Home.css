@@ -1,0 +1,72 @@
+/* Hero 00 */
+.hero {
+   background-image: url("../images/show/hero.jpg");
+   background-position: center center;
+   background-size: cover;
+height: 100vh;
+   object-fit: cover;
+
+}
+/* .main-home{
+    background-image: url("../images/cdfd.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cpover;
+    background-attachment: fixed;
+} */
+
+.port-card:hover .port-img img {
+    transform: scale(1.1);
+}
+
+.port-card .port-img {
+    overflow: hidden;
+}
+
+.port-card .port-img img {
+    transition: 0.5s all ease-in-out;
+}
+
+.port-info p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
+
+.port-info span {
+    font-size: 14px;
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0078FF;
+}
+
+.port-info h4 {
+    font-size: 18px;
+}
+
+.port-info h5 {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.port-icon {
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: lighter;
+    width: 30px;
+    height: 30px;
+    outline: 1px solid #0078FF;
+}
+
+.port-icon i {
+    color: #0077ff91;
+    border-radius: 50%;
+}
+
+/* About  */
+.about{
+    background-image: url("../images/show/hero2.jpg");
+    background-size: cover;
+    height: 100vh
+}
+
+/* Navbar */

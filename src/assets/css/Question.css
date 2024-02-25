@@ -1,0 +1,12 @@
+
+.questionForm{
+   padding: 3rem 10rem;
+}
+.questionForm input,.questionForm select{
+    padding: .6rem !important;
+    border-radius: .6rem !important;
+}
+.unclickableBtn{
+    cursor: default !important;
+    border: none;
+}

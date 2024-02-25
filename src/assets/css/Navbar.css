@@ -1,0 +1,32 @@
+
+/*----------------------- Hover For Home ---------------- */
+#navForHome #linksForHome a,#signInLink a{
+color: #000;
+  }
+  #navForHome #linksForHome a:hover,#signInLink a:hover{
+    color: #5c187e; 
+     transition:color 0s ease-in-out 0.5s;
+  }
+/* ---------------------------------- */
+#navForHome #signInLink,#navForHome #linksForHome{
+    padding-top: 1.4rem;
+}
+/* ------ for mobile ---------*/
+@media (max-width:950px){
+    /* Navbar for Home */
+#navForHome #signInLink{
+    padding-top: 0.2rem;
+}
+#navForHome #linksForHome a{
+    margin: .2rem 0;
+}
+#navForAdmin a{
+text-align: center;
+padding: 0;
+}
+}
+#navForHome{
+    width: 100%;
+    z-index: 2;
+    background-color: transparent;
+}

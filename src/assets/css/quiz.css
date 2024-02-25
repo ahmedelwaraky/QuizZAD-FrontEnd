@@ -1,0 +1,207 @@
+
+/* ------------- quiz list ------------------ */
+.imageBackground{
+    background-image: url(https://images.pexels.com/photos/3729557/pexels-photo-3729557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.searchBtn{
+    background-color: #89288F;
+    border: none;
+    color:white
+}
+
+.filterBtn{
+    outline-color: #560283;
+}
+
+.quizButton {
+    background-color: #89288F;
+    width: 100%;
+    color: white;
+    border: 2px solid transparent; /* Add a transparent border */
+    text-decoration: none;
+}
+
+.quizButton:hover {
+    background-color: #ffffff;
+    border: 2px solid #89288F;
+    color: #89288F;
+    text-decoration: none;
+}
+.QuizDash{
+    background-color: #E9E2EE;
+}
+
+
+.quizlist{
+    max-width: max-content;
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+
+/* Define the media query breakpoints */
+@media (max-width: 767px) { /* Hide SideNav on screens less than 768px wide (sm and xs screens) */
+    .col-md-3.d-md-block.d-none {
+      display: none;
+    }
+  }
+
+.Test{
+    width: 50vw;
+}
+  
+/*------------------------------------*/
+/*------------------ quiz card------------------*/
+
+.QuizCard{
+    height: 500px;
+}
+
+/*------------------------------------*/
+/*------------------ quiz nav------------------*/
+.QuizNavBtn:hover {
+  background-color: white;
+  border-radius: 25px;
+  /* Add any other styles you want for the active link on hover */
+}
+
+
+/* Style for non-active links */
+.QuizNavBtn:not(.active) {
+    /* Reset the background and text color for non-active links */
+    background-color: transparent;
+    color:#ffffff;
+    border-radius: 25px;
+
+  }
+  
+  /* Style for the hover effect on non-active links */
+  .QuizNavBtn:not(.active):hover {
+    background-color: rgb(255, 255, 255); /* Add any hover effect styles for non-active links here */}
+  /*--------------------- image profile --------------------------*/
+  .profileImage{
+      width: 50px;
+      height: 50px;
+    }
+    
+    /*--------------------- QUiz view for student --------------------------*/
+/* NavBar for result */
+#navForResult{
+    border-radius: 20rem;
+}
+    /* Timer progress bar */
+.progressBar {
+    height: 15px;
+    /* background-color: #ccc; */
+  }
+  
+  .progressBarFill {
+    height: 100%;
+    background-color: #560283;
+  }
+
+  /* Answers Section */
+  .answersSection{
+    padding-left: 20%;
+  }
+
+  /*================================= take quiz style =============================== */
+ .quizViewBackground{
+  background-color: #E9E2EE;
+  height: 100vh;
+ }
+
+  .quizBackground{
+    background-color: #ffffffd8; 
+    width: 90vh;
+    
+  }
+
+  .arrowView{
+    border: #560283 2px solid;
+    color: #560283;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+
+  }
+
+  .arrowView:hover{
+    color: #ffffff;
+    background-color: #560283;
+  }
+
+  .answerViewBtn{
+      border: #560283 1px solid;
+      color: #560283;
+      height: 45px;     
+      width: 100%;
+      border-radius: 50px;
+      background-color: white;
+  }
+
+  .answerViewBtn:hover{
+    background-color: #560283;
+    color:white
+  }
+
+  .resutlImage{
+    height: 200px;
+  }
+
+  .resultBackground{  
+    background-color: #E9E2EE;
+    height: 100vh;
+  }
+
+  .resultBtn{
+    background-color: #560283;
+    color: #fff;
+    height: 50px;
+    width: 250px;
+    border: none;
+
+  }
+  
+  .resultBtn:hover{
+    background-color: #fff;
+    color: #560283;
+    border: 2px #560283 solid;
+  }
+
+.resutlImage{
+  height: 200px;
+
+}
+/* Btns Next & Back */
+#nextBackBtn{
+  position: absolute;
+  top: 12.5rem;
+}
+  
+  /* Media query for small screens */
+  @media (max-width: 600px) {
+    .progressBar {
+      height: 10px;
+    }
+  }
+  /* Slider */
+  /* Default styles */
+.slider-container {
+    width: 95%;
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media (max-width: 768px) {
+    .slider-container {
+      width: 100%;
+    }
+    #nextBackBtn{
+      width: 100%;
+    }
+
+  }

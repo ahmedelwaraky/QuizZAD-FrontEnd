@@ -1,0 +1,164 @@
+
+/* ----------- shared styles ---------------- */
+
+
+.forgetPassword ,.register, .login , .otp  , .pending , .reset-password{
+  background-image: linear-gradient(#C89ACB, #F2E5F3);
+  background-repeat: no-repeat;
+  position: relative;
+  min-height: 100vh;
+}
+.sec-gap{
+  padding: 60px 0 ;
+}
+.formBtn{
+  background-color:#8A288E !important;
+  border-radius: 20px;
+}
+.btn{
+  color: #fff;
+}
+.formLogo{
+  max-width: 5.2rem;
+  margin: auto;
+}
+.formHeader h1{
+    font-size: 1.4rem;
+}
+.haveAccount,.haventAccount{
+  font-size: .9rem;
+}
+.exam img{
+  position: fixed;
+  bottom: 0;
+  right: 0px;
+  width: 35rem;
+  }
+  .form label{
+    font-size: .9rem;
+    margin-left: .5rem;
+  }
+ /* login */
+
+ /* //Media Query */
+ @media (min-width:1501px) and (max-width:2080px){
+  .forgetPassword ,.otp ,.pending ,.reset-password ,.login{ 
+    padding: 5.9rem 0 ;
+  }
+  .form{
+    width: 50%;
+    padding: 1rem auto;
+  }
+    /* ---------------register**----------- */
+    .register{
+      padding: 52px 0;
+    }
+    /* ---------------otp**----------- */
+    #otp-input{
+      text-align: center;
+      width: 40px;
+      margin: 10px 10px;
+    }
+}
+  @media (min-width:900.99999px) and (max-width:1500px){
+    .forgetPassword ,.otp ,.pending ,.reset-password ,.login{ 
+      padding: 5.9rem 0 ;
+    }
+    .form{
+      width: 50%;
+      padding: 1rem auto;
+    }
+      /* ---------------register**----------- */
+      .register{
+        padding: 52px 0;
+      }
+      /* ---------------otp**----------- */
+      #otp-input{
+        text-align: center;
+        width: 40px;
+        margin: 10px 10px;
+      }
+  }
+  @media (min-width:700.99999px) and (max-width:900px){
+        /* forgetpassword */
+        .forgetPassword ,.otp ,.pending ,.reset-password ,.login{
+          padding: 80px 0 0px 0;
+          height: 100vh;
+        }
+      /* ---------------register**----------- */
+      .register{
+        padding: 20px 0 90px 0;
+      }
+    .exam{
+      display: none;
+    }
+    /* ---------------otp**----------- */
+    #otp-input{
+      text-align: center;
+      width: 50px;
+      margin: 10px 10px;
+    }
+  }
+  @media (min-width:567.99999px) and (max-width:700px)
+  {
+    .forgetPassword ,.otp ,.pending ,.reset-password{
+      padding: 80px 0 0px 0;
+      height: 100vh;
+    }
+      .register{
+        padding: 20px 0;
+      }
+    .exam{
+      display: none;
+    }
+    #otp-input{
+      text-align: center;
+      width: 50px;
+      margin: 10px 10px;
+    }
+  }
+
+  @media (max-width:567px)
+  {
+    .forgetPassword ,.otp ,.pending ,.reset-password ,.login{
+      padding: 80px 0 0px 0;
+    }
+    .form{
+      margin:auto ;
+      width: 90%;
+    }
+    .exam{
+      display: none;
+    }
+    .register{
+      padding: 20px 0;
+    }
+    #otp-input{
+        text-align: center;
+        width: 40px;
+        margin: 10px 10px;
+    }
+  }
+  
+  @media (min-width:100px) and  (max-width:566px)
+  {
+    .forgetPassword ,.otp ,.pending ,.reset-password ,.login{
+      padding: 80px 0 0px 0;
+    }
+    .form{
+      margin:auto ;
+      width: 90%;
+    }
+    .exam{
+      display: none;
+    }
+    .register{
+      padding: 20px 0;
+    }
+    #otp-input{
+        text-align: center;
+        width: 40px;
+        margin: 10px 10px;
+    }
+  }
+  
